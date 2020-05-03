@@ -1,0 +1,10 @@
+﻿@model IEnumerable<string>
+
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+@foreach (var item in Model)
+{
+    <img src="~/images/@item" style="height:100px;width:100px;float:left;border:1px solid red" />
+}

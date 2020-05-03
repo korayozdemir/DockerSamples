@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerSamples.Docker01", "DockerSamples.Docker01\DockerSamples.Docker01.csproj", "{304619DB-A28F-448E-A756-CD5E066AC107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerSamples.Docker02Web", "DockerSamples.Docker02Web\DockerSamples.Docker02Web.csproj", "{9EC94A4E-3900-4CC7-9940-141E1F010ECF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerSamples.Docker02Web", "DockerSamples.Docker02Web\DockerSamples.Docker02Web.csproj", "{9EC94A4E-3900-4CC7-9940-141E1F010ECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerSamples.Docker03WebCLI", "DockerSamples.Docker03WebCLI\DockerSamples.Docker03WebCLI.csproj", "{BAE9C9D1-67A1-49DE-97EC-4C82131B4ACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9EC94A4E-3900-4CC7-9940-141E1F010ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EC94A4E-3900-4CC7-9940-141E1F010ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EC94A4E-3900-4CC7-9940-141E1F010ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE9C9D1-67A1-49DE-97EC-4C82131B4ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE9C9D1-67A1-49DE-97EC-4C82131B4ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE9C9D1-67A1-49DE-97EC-4C82131B4ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE9C9D1-67A1-49DE-97EC-4C82131B4ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
